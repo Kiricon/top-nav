@@ -34,7 +34,7 @@ You can set there values like so
 
 ```CSS
     :root {
-        --top-nav-color: red; /* if both are set --top-nav-color takes precedence
+        --top-nav-color: red; /* if both are set --top-nav-color takes precedence */
         --primary-color: red; 
     }
 ```
