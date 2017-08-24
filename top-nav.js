@@ -8,7 +8,7 @@ template.innerHTML = `
         :host {
             display: block;
             width: 100%;
-            background-color: var( --primary-color ,var(--top-nav-color, #673AB7));
+            background-color: var( --top-nav-color ,var(--primary-color, #673AB7));
             padding: 20px;
             box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
             color: white;
