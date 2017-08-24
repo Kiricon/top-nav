@@ -4,7 +4,11 @@ An HTML custom element implementing the `<top-nav>` element.
 ## Setup
 
 ### Installation
-`npm i top-nav`
+```
+npm i top-nav
+```
+
+---
 
 ```Html
 <script src="node_modules/top-nav/top-nav.js"></script>
