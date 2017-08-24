@@ -1,0 +1,19 @@
+{
+  "name": "top-nav",
+  "version": "1.0.0",
+  "description": "A top navigation custom element",
+  "main": "top-nav.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kiricon/top-nav.git"
+  },
+  "author": "Dominic Valenciana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kiricon/top-nav/issues"
+  },
+  "homepage": "https://github.com/Kiricon/top-nav#readme"
+}
