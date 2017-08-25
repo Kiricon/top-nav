@@ -1,7 +1,7 @@
 # top-nav
 An HTML custom element implementing the `<top-nav>` element.
 
-![top-nav in action] (https://github.com/Kiricon/top-nav/raw/master/screencapture.gif)
+![top-nav in action](https://github.com/Kiricon/top-nav/raw/master/screencapture.gif)
 
 ## Setup
 
