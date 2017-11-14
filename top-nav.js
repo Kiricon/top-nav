@@ -8,12 +8,13 @@ template.innerHTML = `
         :host {
             display: block;
             width: 100%;
-            background-color: var( --top-nav-color ,var(--primary-color, #673AB7));
-            padding: 20px;
+            background-color: var(--top-nav-color, var(--primary-color, #673AB7));
+            padding: var(--top-nav-padding, 20px);
             box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-            color: white;
+            color: var(--top-nav-text-color, white);
             font-size: 1em;
-            position: fixed;
+            position: sticky;
+            top: 0px;
         }
     </style>
     <slot></slot>
