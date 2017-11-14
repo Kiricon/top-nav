@@ -34,7 +34,8 @@ require("top-nav");
 ## Customization
 You can customize the color of the `top-nav` by assigning values to css elements. 
 
-The who css elements that affect `top-nav` are `--top-nav-color` and `--primary-color`.
+The CSS custom properties that affect `top-nav` are `--top-nav-color`,
+`--primary-color`, `--top-nav-padding`, `--top-nav-text-color`.
 
 You can set there values like so
 
@@ -42,5 +43,7 @@ You can set there values like so
     :root {
         --top-nav-color: red; /* if both are set --top-nav-color takes precedence */
         --primary-color: red; 
+        --top-nav-padding: 30px; /* (optional) defaults to 20px */
+        --top-nav-text-color: black; /* (optional) defaults to white */
     }
 ```
